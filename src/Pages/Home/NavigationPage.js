@@ -26,15 +26,15 @@ function NavigationPage(){
                     <div className="main-container-middle-flexboxes-container"><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img className="main-container-middle-buttons-style-cv" alt="CV Icon" src={CvIcon}/></a></div>  
                 </div>
                 <div className="main-container-bottom">
-                    <NavLink className={({ isActive }) => (isActive ? 'main-container-bottom-button-active' : 'main-container-bottom-button')} to="/Portfolio/projects">Projects</NavLink>
+                    <NavLink className={({ isActive }) => (isActive ? 'main-container-bottom-button-active' : 'main-container-bottom-button')} to="/projects">Projects</NavLink>
                     <div className="main-container-bottom-button-dropdown">
                         <span className="main-container-bottom-button">Career <IoCaretDownSharp className="main-container-bottom-button-icons"/></span>
                         <div className="main-container-bottom-button-dropdown-check">
-                            <NavLink className={({ isActive }) => (isActive ? 'main-container-bottom-buttom-dropdown-text-active' : 'main-container-bottom-buttom-dropdown-text')} to="/Portfolio/education">Education</NavLink>
-                            <NavLink className={({ isActive }) => (isActive ? 'main-container-bottom-buttom-dropdown-text-active' : 'main-container-bottom-buttom-dropdown-text')} to="/Portfolio/work">Work</NavLink>
+                            <NavLink className={({ isActive }) => (isActive ? 'main-container-bottom-buttom-dropdown-text-active' : 'main-container-bottom-buttom-dropdown-text')} to="education">Education</NavLink>
+                            <NavLink className={({ isActive }) => (isActive ? 'main-container-bottom-buttom-dropdown-text-active' : 'main-container-bottom-buttom-dropdown-text')} to="/work">Work</NavLink>
                         </div>
                     </div>
-                    <NavLink className={({ isActive }) => (isActive ? 'main-container-bottom-button-active' : 'main-container-bottom-button')} to="/Portfolio/skills">Skills</NavLink>
+                    <NavLink className={({ isActive }) => (isActive ? 'main-container-bottom-button-active' : 'main-container-bottom-button')} to="/skills">Skills</NavLink>
                 </div>
             </div>
         </div>
