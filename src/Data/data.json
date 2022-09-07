@@ -134,7 +134,7 @@
             "programming_languages":
             [
                 { "id": 1, "name": "C++", "icon": "/Images/skill_icons/prog_lang/cplusplus-original.svg"},
-                { "id": 2, "name": "C", "icon": "/Images/skill_icons/prog_lang/c-original.svg"},
+                { "id": 2, "name": "C", "icon": "https://elisloutos.github.io/Portfolio-Data/c-original.svg"},
                 { "id": 3, "name": "C#", "icon": "/Images/skill_icons/prog_lang/csharp-original.svg"},
                 { "id": 4, "name": "CSS", "icon": "/Images/skill_icons/prog_lang/css3-original-wordmark.svg"},
                 { "id": 5, "name": "HTML", "icon": "/Images/skill_icons/prog_lang/html5-original-wordmark.svg"},
