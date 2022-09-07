@@ -1,0 +1,60 @@
+#ProjectsPage {
+  font-family: 'Montserrat';
+}
+
+#ProjectsPage .main-container{
+  display: flex;
+  /* border: 2px solid rgba(255, 0, 0, 0.9); */
+
+}
+#ProjectsPage .main-container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+  /* border: 2px solid rgba(51, 0, 255, 0.9); */
+  margin: 50px 15% 150px 15%;
+}
+#ProjectsPage .flexboxes-container {
+  border: 0.5px groove #E7DFDD;
+  color: white;
+  margin: 15px;
+  width: 220px;
+  height: auto;
+  border-radius: 2px;
+  text-align:center;
+  cursor: pointer;
+}
+
+#ProjectsPage .flexboxes-container-image {
+  height: auto;
+  width: 100%;
+  max-width: 350px;
+  max-height: 300px;
+  opacity: 0.9;
+  /* border-radius: 2px; */
+  border-radius: 2px 2px 0 0;
+  border-bottom: 0.5px groove #E7DFDD;
+}
+#ProjectsPage .flexboxes-container:hover{
+  opacity: 0.5;
+  transition: 0.5s;
+}
+#ProjectsPage .flexboxes-container-1{
+  display: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5px;
+  padding: 15px 15px;
+  /* border-bottom: 0.5px solid #E7DFDD; */
+
+}
+#ProjectsPage .flexboxes-container-text{
+  font-size: 18px;
+  font-family: 'Inconsolata', sans-serif;
+}
+#ProjectsPage .flexboxes-container-link{
+  color: inherit;
+  text-decoration: inherit;
+}

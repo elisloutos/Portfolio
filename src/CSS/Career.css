@@ -1,0 +1,40 @@
+#Career{
+    font-family: 'Montserrat';
+}
+
+#Career .main-container{
+    display: flex;
+    /* border: 2px solid rgba(255, 0, 0, 0.9); */
+    padding-bottom: 150px;
+}
+/* Context */
+#Career .main-container-context {
+    display: flex;
+    width: auto;
+    text-align: center;
+    flex: 0 1 auto;
+    flex-flow: column;
+    margin: 0 15%;
+    padding: 30px 0;
+    border-bottom: 1px solid #E7DFDD;
+}
+#Career .main-container-context-title{
+    color: #E7DFDD;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Inconsolata', sans-serif;
+}
+#Career .main-container-context-year{
+    color: #E7DFDD;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+#Career .main-container-context-text{
+    color: #E7DFDD;
+    padding: 20px 50px;
+    font-size: 20px;
+    font-family: 'Inconsolata', sans-serif;
+}

@@ -1,0 +1,65 @@
+#Skills{
+    font-family: 'Montserrat';
+}
+
+#Skills .main-container{
+    display: flex;
+}
+#Skills .main-container-1{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 15% 0 15%;
+    /* border: 1px solid #ff3300; */
+}
+#Skills .main-container-1:last-child{
+    margin-bottom: 150px;
+}
+#Skills .main-container-header {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #E7DFDD;
+    /* border: 1px solid #0c1edd; */
+ 
+}
+#Skills .main-container-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    /* border: 1px solid #0c1edd; */
+ 
+}
+#Skills .main-container-flexbox {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    /* border: 1px solid #E7DFDD; */
+}
+#Skills .main-container-context-title{
+    color: #E7DFDD;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Inconsolata', sans-serif;
+    
+}
+#Skills .main-container-context-image{
+    width: 100px;
+    height: 100px;
+    
+}
+#Skills .main-container-context-text{
+    width: 100px;
+    height: 100px;
+    font-family: 'Inconsolata', sans-serif;
+    color: #E7DFDD;
+    font-weight: bold;
+    font-size: 25px;
+    /* padding: 10px; */
+    border-bottom: 1px solid #E7DFDD;
+    /* margin: 10px; */
+    
+}
