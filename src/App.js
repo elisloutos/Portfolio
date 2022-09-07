@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, BrowserRouter, Route, Routes } from 'react-router-dom'
 
 
 //Pages
@@ -15,7 +15,7 @@ import data from "./Data/data.json"
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <header>
       <NavigationPage/>
     </header>
@@ -27,7 +27,7 @@ function App() {
         <Route exact path="/Portfolio/work" element={<WorkPage data={data}/>}/>
         <Route exact path="/Portfolio/skills" element={<SkillsPage data={data}/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

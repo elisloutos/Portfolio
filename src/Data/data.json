@@ -4,7 +4,7 @@
         {
             "id": 1,
             "name": "Game Demo",
-            "image": "process.env.PUBLIC_URL + Images/p_1.png",
+            "image": "/Images/p_1.png",
             "build_date": "22/03/2022",
             "description": "There will be the description of the project",
             "links":[
@@ -58,7 +58,7 @@
         {
             "id": 2,
             "name": "Website",
-            "image": "Images/p_1.png",
+            "image": "/Images/p_1.png",
             "build_date": "12/12/2020",
             "description": "There will be the description of the project that i made at 2020",
             "links":[
