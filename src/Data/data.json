@@ -4,7 +4,7 @@
         {
             "id": 1,
             "name": "Game Demo",
-            "image": "Images/p_1.png",
+            "image": "process.env.PUBLIC_URL + Images/p_1.png",
             "build_date": "22/03/2022",
             "description": "There will be the description of the project",
             "links":[
