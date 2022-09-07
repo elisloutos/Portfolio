@@ -20,12 +20,12 @@ function App() {
       <NavigationPage/>
     </header>
       <Routes>
-      <Route exact path="/home" element={<HomePage/>}/>
-        <Route exact path="/projects"  element={<ProjectsPage data={data}/>}/>
-        <Route exact path='/projects/:param_id' element={<Project data={data}/>} />
-        <Route exact path="/education" element={<EducationPage data={data}/>}/>
-        <Route exact path="/work" element={<WorkPage data={data}/>}/>
-        <Route exact path="/skills" element={<SkillsPage data={data}/>}/>
+      <Route exact path="/Portfolio/home" element={<HomePage/>}/>
+        <Route exact path="/Portfolio/projects"  element={<ProjectsPage data={data}/>}/>
+        <Route exact path='/Portfolio/projects/:param_id' element={<Project data={data}/>} />
+        <Route exact path="/Portfolio/education" element={<EducationPage data={data}/>}/>
+        <Route exact path="/Portfolio/work" element={<WorkPage data={data}/>}/>
+        <Route exact path="/Portfolio/skills" element={<SkillsPage data={data}/>}/>
       </Routes>
     </BrowserRouter>
   );

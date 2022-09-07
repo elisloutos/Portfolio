@@ -10,7 +10,7 @@ function ProjectsPage({data}){
                         {data.projects.map(({id, name, image}) =>{
                             return(
                                 <div key={id} className="flexboxes-container">
-                                    <Link className="flexboxes-container-link" to={`/projects/${id}`}>
+                                    <Link className="flexboxes-container-link" to={`/Portfolio/projects/${id}`}>
                                         <img className="flexboxes-container-image" alt="Project Imsge" src={image}/>
                                         <div className="flexboxes-container-1">
                                         <span className="flexboxes-container-text">{name}</span>
