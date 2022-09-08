@@ -1,5 +1,6 @@
-import React from 'react'
-import { HashRouter, BrowserRouter, Route, Routes } from 'react-router-dom'
+import React, {useEffect, useState} from 'react'
+import { HashRouter, Route, Routes } from 'react-router-dom'
+import axios from 'axios'
 
 
 //Pages
@@ -10,17 +11,28 @@ import Project from './Pages/Project/Project'
 import EducationPage from './Pages/Career/EducationPage'
 import WorkPage from './Pages/Career/WorkPage'
 import SkillsPage from './Pages/Skills/SkillsPage'
-//Data
-import data from "./Data/data.json"
+
 
 function App() {
+  const [data,setData]=useState([]);
+
+  useEffect(() =>{
+    axios.get("https://elisloutos.github.io/Portfolio-Data/data.json")
+    .then(res => {
+      console.log(res)
+      setData(res.data)
+    })
+    .catch(err =>{
+      console.log(err)
+    })
+  }, [])
   return (
     <HashRouter>
     <header>
       <NavigationPage/>
     </header>
       <Routes>
-      <Route exact path="/home" element={<HomePage/>}/>
+      <Route exact path="/" element={<HomePage/>}/>
         <Route exact path="/projects"  element={<ProjectsPage data={data}/>}/>
         <Route exact path='/projects/:param_id' element={<Project data={data}/>} />
         <Route exact path="/education" element={<EducationPage data={data}/>}/>

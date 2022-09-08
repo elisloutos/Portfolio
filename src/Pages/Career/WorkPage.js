@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import "../../CSS/Career.css"
 
 
@@ -7,7 +7,7 @@ function WorkPage({data}){
         <div id="Career">
             <div className="main-container">
                 {/* Context */}
-                {data.work.map(({id, name, date, description}) =>{
+                {data.work && data.work.map(({id, name, date, description}) =>{
                             return(
                                 <div key={id} className="main-container-context">
                                 <span className="main-container-context-title">{name}</span>

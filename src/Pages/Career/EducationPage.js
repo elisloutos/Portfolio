@@ -7,7 +7,7 @@ function EducationPage({data}){
         <div id="Career">
             <div className="main-container">
                 {/* Context */}
-                {data.education.map(({id, name, date, description}) =>{
+                {data.education && data.education.map(({id, name, date, description}) =>{
                             return(
                                 <div key={id} className="main-container-context">
                                 <span className="main-container-context-title">{name}</span>

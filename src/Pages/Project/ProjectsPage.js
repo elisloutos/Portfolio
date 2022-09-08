@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import {Link } from "react-router-dom";
 import "../../CSS/ProjectsPage.css"
 
@@ -7,7 +7,7 @@ function ProjectsPage({data}){
         <div id='ProjectsPage'>
                 <div className='main-container'>
                     <div className="main-container2">
-                        {data.projects.map(({id, name, image}) =>{
+                        {data.projects && data.projects.map(({id, name, image}) =>{
                             return(
                                 <div key={id} className="flexboxes-container">
                                     <Link className="flexboxes-container-link" to={`/projects/${id}`}>
