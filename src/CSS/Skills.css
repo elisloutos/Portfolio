@@ -47,8 +47,8 @@
     
 }
 #Skills .main-container-context-image{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     
 }
 #Skills .main-container-context-text{
@@ -62,4 +62,17 @@
     border-bottom: 1px solid #E7DFDD;
     /* margin: 10px; */
     
+}
+@media only screen and (max-width: 900px){
+    #Skills .main-container-context-image{
+        width: 50px;
+        height: 50px;
+        
+    }
+}
+@media only screen and (max-width: 374px){
+    #Skills .main-container-main {
+       justify-content: center;
+     
+    }
 }

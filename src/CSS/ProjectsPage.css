@@ -11,10 +11,11 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
   width: auto;
   /* border: 2px solid rgba(51, 0, 255, 0.9); */
   margin: 50px 15% 150px 15%;
+  padding: 0 50px;
 }
 #ProjectsPage .flexboxes-container {
   border: 0.5px groove #E7DFDD;
@@ -58,3 +59,18 @@
   color: inherit;
   text-decoration: inherit;
 }
+@media only screen and (max-width: 900px){
+#ProjectsPage .flexboxes-container {
+  width: 150px;
+}
+#ProjectsPage .main-container2 {
+
+  padding: 0;
+}
+}
+@media only screen and (max-width: 517px){
+  #ProjectsPage .main-container2 {
+  
+    justify-content: center;
+  }
+  }
