@@ -25,6 +25,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     padding: 20px;
     /* border: 1px solid #0c1edd; */
  
@@ -47,8 +48,9 @@
     
 }
 #Skills .main-container-context-image{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
     
 }
 #Skills .main-container-context-text{
