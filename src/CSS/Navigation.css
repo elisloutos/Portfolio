@@ -215,3 +215,18 @@
     font-size: 25px;
   }
 }
+@media only screen and (max-width: 500px){
+  .main-container-bottom-button,
+  .main-container-bottom-button-active
+  {
+    position: relative;
+    display: block;
+    width: 100px;
+    text-align: center;
+    /* padding: 5px 25px; */
+    font-size: 13px;
+  }
+  .main-container-bottom-buttom-dropdown-text{
+    font-size: 13px;
+  }
+}

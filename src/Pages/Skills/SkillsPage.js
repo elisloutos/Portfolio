@@ -12,7 +12,7 @@ function SkillsPage({data}){
                         {data.skills && data.skills.map(({programming_languages}) =>{
                             return programming_languages.map(({id, icon}) =>{
                                 return(
-                                    <div key={id} className="main-container-flexbox"><img className="main-container-context-image" alt="CV Icon" src={icon}/></div>
+                                    <div key={id} className="main-container-flexbox"><img className="main-container-context-image-langu" alt="CV Icon" src={icon}/></div>
                                 );  
                             })                     
                         })}  

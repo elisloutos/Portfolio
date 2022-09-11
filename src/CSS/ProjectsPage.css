@@ -62,9 +62,26 @@
 @media only screen and (max-width: 900px){
   #ProjectsPage .flexboxes-container {
     width: 150px;
+    margin: 10px;
   }
   #ProjectsPage .main-container2 {
-
+    margin: 50px 5% 150px 5%;
     padding: 0;
+  }
+  #ProjectsPage .flexboxes-container-text{
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 600px){
+  #ProjectsPage .flexboxes-container {
+    width: 120px;
+    margin: 10px;
+  }
+  #ProjectsPage .main-container2 {
+    margin: 50px 5% 150px 5%;
+    padding: 0;
+  }
+  #ProjectsPage .flexboxes-container-text{
+    font-size: 15px;
   }
 }

@@ -11,7 +11,7 @@ function Project({data}){
                 {/* Context */}
                 <div className="main-container-context">
                     {/* TITLE */}
-                    {data.projects && data.projects.filter(project => project.id  == param_id)
+                    {data.projects && data.projects.filter(project => project.id  === param_id)
                     .map((project) =>{
                         return(
                             <div key={project.id}>
@@ -21,12 +21,12 @@ function Project({data}){
                     })}  
                     {/* LINKS */}
                     <div className="main-container-context-container-link">
-                        {data.projects && data.projects.filter(project => project.id  == param_id)
+                        {data.projects && data.projects.filter(project => project.id  === param_id)
                         .map((project) =>{
                             return project.links.map(({link_id, link, image}) =>{
                                 return(
                                     <div key={link_id}>
-                                        <span><a href={link} target="_blank" ><img className="main-container-context-link-icon" alt="link Icon" src={image}/></a></span> 
+                                        <span><a href={link} target="_blank" rel="noopener noreferrer"><img className="main-container-context-link-icon" alt="link Icon" src={image}/></a></span> 
                                     </div>
                                 );
                             })        
@@ -36,7 +36,7 @@ function Project({data}){
                     {/* CATEGORIES */}
                     <div className="main-container-context-container-category">
                         {/* Built Date */}
-                        {data.projects && data.projects.filter(project => project.id  == param_id)
+                        {data.projects && data.projects.filter(project => project.id  === param_id)
                         .map((project) =>{
                             return(
                                 <div key={project.id} className="main-container-context-container-category-flex">
@@ -47,7 +47,7 @@ function Project({data}){
                         {/* Category */}
                         <div className="main-container-context-container-category-flex">
                             <span className="main-container-context-category-label">Category:</span>
-                            {data.projects && data.projects.filter(project => project.id  == param_id)
+                            {data.projects && data.projects.filter(project => project.id  === param_id)
                             .map((project) =>{
                                 return project.category.map(({category_name}, index) =>{
                                     return(
@@ -62,7 +62,7 @@ function Project({data}){
                         {/* Language */}
                         <div className="main-container-context-container-category-flex">
                             <span className="main-container-context-category-label">Language:</span>
-                            {data.projects && data.projects.filter(project => project.id  == param_id)
+                            {data.projects && data.projects.filter(project => project.id  === param_id)
                             .map((project) =>{
                                 return project.language.map(({language_name}, index) =>{
                                     return(
@@ -76,7 +76,7 @@ function Project({data}){
                         </div>
                         {/* Tool */}
                         <div className="main-container-context-container-category-flex">
-                            {data.projects && data.projects.filter(project => project.id  == param_id)
+                            {data.projects && data.projects.filter(project => project.id  === param_id)
                             .map((project) =>{
                                 return project.tool_name.map(({tool_name}, index) =>{
                                     return(
@@ -86,7 +86,7 @@ function Project({data}){
                                     );
                                 })        
                             })}
-                            {data.projects && data.projects.filter(project => project.id  == param_id)
+                            {data.projects && data.projects.filter(project => project.id  === param_id)
                             .map((project) =>{
                                 return project.tool.map(({tool_name}, index) =>{
                                     return(
@@ -99,7 +99,7 @@ function Project({data}){
                         </div>
                     </div>
                     {/* DESCRIPTION */}
-                    {data.projects && data.projects.filter(project => project.id  == param_id)
+                    {data.projects && data.projects.filter(project => project.id  === param_id)
                     .map((project) =>{
                         return(
                             <span key={project.id} className="main-container-context-text">{project.description}</span>

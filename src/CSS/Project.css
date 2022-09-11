@@ -108,4 +108,7 @@
     #Project .main-container-context-link-icon{
         margin: 10px 10px 10px 10px;
     }
+    #Project .main-container-context-title{
+        font-size: 30px;
+    }
 }
